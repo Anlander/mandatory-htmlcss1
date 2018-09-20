@@ -4,65 +4,49 @@
 }
 
 body {
-    min-width: 1200px;
-    min-height: 1200px;
-    height: 100vh;
+    height: 100vh ;
 
 
 }
-
-  .Welcome {
-
+.welcome {
     background-color: #41B3A3;
-    width: 100%;
-    height: 22%;
-
+    height: 25%;
 
 }
 
-  .text {
-    background-color: white;
-    color: blue;
-    position: absolute;
-    text-align: center;
-
-
-
-}
-
-   h1 {
-
-    position: absolute;
-    text-align: center;
-    top: 8%;
-    width: 100%;
-    color: white;
-    font-size: 90px;
-    font-family: helvetica;
-    font-weight: lighter;
+  h1 {
+   position: absolute;
+   text-align: center;
+   width: 100%;
+   color: white;
+   top: 8%;
+   font-size: 90px;
+   font-family: helvetica;
+   font-weight: lighter;
 
 }
 
-   .table {
+ .table {
 
-    height: 80px;
-    width: 100%;
-    position: relative;
-    top: 199px;
-    left: 0%;
-    right:0%;
-    border-spacing: 20px;
+
+   width: 100%;
+   height: 45%;
+   position: absolute;
+   left: 0%;
+   right:0%;
+   border-spacing: 20px;
+
 }
 
-.theader a {
-  float: left;
-  color: white;
-  font-family: helvetica;
-  font-weight: lighter;
-  width: 100%;
-  vertical-align: middle;
-  line-height: 50px;
-  text-decoration: none;
+ .nav a {
+   float: left;
+   color: white;
+   font-family: helvetica;
+   font-weight: lighter;
+   width: 100%;
+   vertical-align: middle;
+   line-height: 50px;
+   text-decoration: none;
 
 }
 
@@ -71,26 +55,13 @@ body {
 
 
 .Footer {
-  position: absolute;
-  bottom: 0;
+  float:left;
   font-size: 15px;
   background-color: #41B3A3;
   width: 100%;
-  height: 20%;
+  
   text-align: center;
-
-}
-
-.foot-text {
-  float: left;
-  padding: 10px 10px;
-  position: relative;
-  top: 30%;
-  left: 41%;
-  color: white;
-  font font-family: helvetica;
-  font-weight: lighter;
-  text-decoration: underline;
+  color:white;
 
 }
 
@@ -110,4 +81,9 @@ a:hover{
 a:active {
   color:black;
 
+}
+
+th {
+  font-family: helvetica;
+  font-weight: lighter;
 }
