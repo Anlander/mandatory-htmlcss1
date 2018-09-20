@@ -5,57 +5,60 @@
 
 body {
 
-  height: 100vh;
+    height: 100vh;
 
 
 }
 
-.Welcome {
-  background-color: #41B3A3;
-  width: 100%;
-  height: 30%;
+  .Welcome {
 
-}
-
-.text {
-  background-color: white;
-  color: blue;
-  position: absolute;
-  text-align: center;
-
+    background-color: #41B3A3;
+    width: 100%;
+    height: 30%;
 
 
 }
 
-h1 {
-  position: absolute;
-  text-align: center;
-  top: 5%;
-  width: 100%;
-  color: white;
-  font-size: 90px;
-  font-family: helvetica;
-  font-weight: lighter;
+  .text {
+    background-color: white;
+    color: blue;
+    position: absolute;
+    text-align: center;
+
+
 
 }
 
-table {
-  height: 80px;
-  width: 60%;
-  position: relative;
-  top: 65%;
-  left: 20%;
-  border-spacing: 20px;
+   h1 {
+
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    width: 100%;
+    color: white;
+    font-size: 90px;
+    font-family: helvetica;
+    font-weight: lighter;
+
+}
+
+   table {
+
+    height: 80px;
+    width: 100%;
+    position: relative;
+    top: 199px;
+    left: 0%;
+    right:0%;
+    border-spacing: 20px;
 }
 
 .theader a {
   float: left;
   color: white;
-  border: 1px solid green;
   font-family: helvetica;
   font-weight: lighter;
   width: 100%;
-  text-align: center;
   vertical-align: middle;
   line-height: 50px;
   text-decoration: none;
@@ -77,18 +80,24 @@ table {
 
 }
 
-.contacttext {
+.foot-text {
   float: left;
   padding: 10px 10px;
   position: relative;
   top: 40%;
   left: 40%;
-  text-align: center;
   color: white;
-  border: 1px solid white;
   font font-family: helvetica;
   font-weight: lighter;
 
+}
+
+.c-info {
+  position: relative;
+  font-size: 30px;
+  top: 35px;
+  font-family: helvetica;
+  font-weight: lighter;
 }
 
 
@@ -97,11 +106,19 @@ table {
 
 
 a:hover, theader:hover{
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: black;
+  border:none;
+  border-style:none;
 }
 
-.active {
+.active  {
+  background-color: white;
   color: black;
-  background-color: green;
+
+}
+
+.theader a:link, a:active {
+  color:black;
+
 }
