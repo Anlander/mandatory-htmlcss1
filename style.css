@@ -90,12 +90,11 @@ body {
 .footer:hover {
   background-color: #41B3A3;
   opacity: 1;
-  height: 15%;
+  font-size: 17px;
   width: 100%;
-  font-size: 25px;;
-  border: 1px solid white;
-  box-shadow: 1px 3px -10px black;
-  position: absolute;
+  position: fixed;
+  bottom:0%;
+  left:0;
 }
 
 .footer {
@@ -113,6 +112,6 @@ body {
 
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;;
   text-decoration: underline;
 }
