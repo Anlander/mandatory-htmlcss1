@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -14,14 +14,37 @@
         <h1>CONTACT ME</h1>
         <table class="table">
           <tr class="nav">
-            <th><a href="Index.html">HOME</a></th>
-            <th><a href="About.html">ABOUT</a></th>
-            <th><a href="Movies.html">MOVIES</a></th>
-            <th><a href="Links.html">LINKS</a></th>
+            <th><a class="topnav" href="Index.html">HOME</a></th>
+            <th><a class="topnav" href="About.html">ABOUT</a></th>
+            <th><a class="topnav" href="Movies.html">MOVIES</a></th>
+            <th><a class="topnav" href="Links.html">LINKS</a></th>
             <th class="active"><a href="Contact.html">CONTACT</a></th>
          </tr>
        </table>
      </div>
+
+     <form>
+       <label for="fname">Name</label>
+       <input type="text" class="fname" placeholder="Claes Olsson" required> <br>
+       <label for="email">Email</label>
+       <input type="email" class="lname" placeholder="Example@gmail.com" required>
+
+      <label for="Text">Several Subjects</label>
+       <select required>
+        <option value="Funny">Funny</option>
+        <option value="Strong">Strong</option>
+        <option value="Angry">Angry</option>
+        <option value="Crazy">Crazy</option>
+      </select>
+
+      <label for="Message">Massage</label> <br>
+      <textarea name="Message" rows="8" cols="70" placeholder="Hello my name is.." required>
+      </textarea> <br>
+      <input class="submit" type="Submit" value="Submit">
+
+ </form>
+
+
 
 
       <div class="footer">
@@ -30,14 +53,6 @@
         <p>Youtube.com</p>
         <p>0738-720 430</p>
       </div>
-
-
-
-
-
-
-
-
 
 
 </body>
